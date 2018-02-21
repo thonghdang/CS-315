@@ -1,1 +1,94 @@
+* {
+		margin: 0;
+		padding: 0;
+        border-radius: 80px;
+		}
+
+html {
+		font-size: 90%;
+		}
+
+body {
+		font: 66% georgia, sans-serif;
+		background: url(svetlana-manic-409810.jpg);
+        padding-bottom: 2em;
+        color: azure 
+		}
+
+p {
+		font: 1.5em/1.5 georgia, sans-serif;
+		margin-bottom: 1em;
+		}
+
+a:link {
+    color: aqua;
+		}
+
+a:visited {
+		color:coral;
+		} 
+
+#wrapper {
+		width: 700px;
+		margin: 0 auto;
+		}
+
+#profimage {
+		float: right;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+#content {
+		font: 1.3em/1.4 georgia, sans-serif;
+		padding: 15px 15px 15px;
+		border-right: 1px;
+		border-bottom: 1px;
+		border-left: 1px;
+		}
+
+#navContainer {
+		font: 1.1em georgia, sans-serif;
+		text-align: center;
+		padding: 20px 0 0;
+		border-bottom: 1px;
+        color: azure
+		}
+
+#navigation ul {
+		padding: 0 0 5px;
+		}
+
+#navigation li {
+		display: inline;
+		}
+
+#navigation a:link, #navigation a:visited {
+		text-transform: capitalize;
+		text-decoration: none;
+		color: #000000;
+		border: 1px solid #898989;
+		padding: 5px 10px;
+		position: relative;
+		margin-right: 5px;
+		}
+
+
+#navigation a:visited {
+		color: #222222;
+		}
+
+#navigation a:hover {
+		text-decoration: underline;
+		background: #cccccc;
+		}
+
+#homePage #homePageLink a:link, #homePage #homePageLink a:visited, #Class1Page #Class1PageLink a:link, #Class1Page #Class1PageLink a:visited, #Class2Page #Class2PageLink a:link, #Class2Page #Class2PageLink a:visited {
+        background: #f2f2f2;
+		border-bottom-color: #f2f2f2;
+		}
+
+li {
+    margin-left: 20px;
+   }
 
