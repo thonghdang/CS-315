@@ -1,0 +1,106 @@
+
+body{
+    background: url(background.jpg);
+}
+
+.wrapper{
+    width: 600px;
+    background:#eee; 
+    margin: 0 auto 0 auto;
+}
+
+.heading{
+    height: 100px;
+    background:darkred;
+    padding: 20px;
+    text-align: center;
+    font-family: impact;
+    font-size: 20pt;
+    color: yellow;
+    text-shadow: 0.1em 0.1em black;
+}
+
+.p{
+    margin-top: 5px;
+    font-family: georgia;
+    padding: 10px;
+}
+
+.title{
+    font-family: serif;
+    font-size: 18pt;
+    background: black;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navigation{
+    height: 50px;
+    background:brown;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: impact;
+    font-size: 16pt;
+    border: 1px solid black;
+}
+
+.navigation ul{
+    text-align: center;
+    
+}
+
+.navigation ul li{
+    display: inline;
+    margin-right: 30px;
+    padding: 6px;
+    
+}
+
+.navigation a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+.navigation a: hover{
+    color: black;
+    text-decoration: underline;
+    
+}
+
+.content{
+    min-height: 400px;
+    background: #ddd; 
+    width: 380px;
+    float:left;
+    padding: 10px;
+}
+
+.about-content,.merch-content{
+    min-height: 400px;
+    background: #ddd; 
+    width: 580px;
+    padding: 10px;
+}
+
+.sidebar{
+    width: 180px;
+    float:right;
+    background: lightblue;
+    min-height: 400px;
+    padding: 10px;
+}
+
+.footer{
+    clear:both;
+    background: black;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: serif;
+    font-size: 15pt;
+}
