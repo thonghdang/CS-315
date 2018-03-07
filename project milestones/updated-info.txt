@@ -1,0 +1,2 @@
+Updated
+Part 1: I finished implementing some simple HTML and CSS.
