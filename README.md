@@ -1,2 +1,2 @@
 # CS-315
-For my CS 315 class
+This repository stores programs for my CS 315 - Internet programming class.
